@@ -1,6 +1,7 @@
 # vue3-note
 
-This template should help get you started developing with Vue 3 in Vite.
+![Screenshot](https://raw.githubusercontent.com/imhannan/vue3-note/master/public/images/screenshot.png)
+### Live version of this project can be found [here](https://vue3-note.netlify.app)
 
 ## Recommended IDE Setup
 
