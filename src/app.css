@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-primary;
+}
+
+@layer components {
+  .form-control {
+    @apply rounded-md border-gray-300 focus:border-none focus:ring-primary;
+  }
+
+  .btn {
+    @apply rounded-md p-1 duration-300 ease-in-out md:p-2 text-xs md:text-sm;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-green-500;
+  }
+}
